@@ -1,0 +1,111 @@
+body {
+  width: 50%;
+  text-align: left;
+  margin: 15px auto;
+  padding: 10px 20px;
+}
+
+h1 {
+  color: #0b5ed7;
+  text-align: left;
+  margin: 10px;
+  font-size: 30px;
+  padding: 5px;
+}
+h2 {
+  font-size: 50px;
+}
+h3 {
+  text-align: left;
+}
+
+h5 {
+  text-align: right;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th:nth-child(1) {
+  width: 20%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 20%;
+}
+
+thead th:nth-child(4) {
+  width: 20%;
+}
+thead th:nth-child(5) {
+  width: 20%;
+}
+
+th,
+td {
+  padding: 20px;
+}
+
+.bright {
+  table-layout: fixed;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  border-collapse: collapse;
+  line-height: 0;
+  font-size: 16px;
+}
+
+thead td:nth-child(1) {
+  width: 70%;
+  padding: 10px;
+  margin: 30 auto;
+  line-height: 0;
+}
+
+.thead td:nth-child(2) {
+  padding: 10px;
+  width: 70%;
+  margin: 30 auto;
+  line-height: 1px;
+}
+
+.thead td:nth-child(3) {
+  padding: 10px;
+  width: 70%;
+  margin: 30 auto;
+  line-height: 1px;
+}
+
+.day {
+  text-align: left;
+}
+.change {
+  text-align: left;
+}
+.free {
+  background-image: url("images/Blue.jpeg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 590px;
+
+  color: black;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 20px;
+}
+
+.units {
+  position: relative;
+  top: -24px;
+  font-size: 17px;
+}
